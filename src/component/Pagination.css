@@ -1,0 +1,26 @@
+.pager-wrapper {
+  display: flex;
+  justify-content: space-around;
+  color: #3f3f3f;
+  padding-bottom: 200px;
+  padding-top: 50px;
+  text-align: center;
+  color: #3f3f3f;
+}
+.current-page {
+  background: #ffffff;
+  border: 1px solid #3f3f3f;
+  border-radius: 1px;
+  padding: 4px;
+}
+.previous,
+.next {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #3f3f3f;
+}
